@@ -10,7 +10,7 @@ mkdir -p vault vw
 rm -f
 
 # Fetch default web app
-git clone --depth 1  --branch "$VAULT_VERSION"  https://github.com/bitwarden/clients.git vault
+git clone --depth 1  --branch "$VAULT_VERSION"  https://github.com/MUNI-CZS/vaultwarden-frontend.git vault
 
 # Fetch vault warden
 git clone --depth 1  --branch "$VW_VERSION"  https://github.com/dani-garcia/bw_web_builds.git vw
